@@ -1,0 +1,36 @@
+GIT
+  remote: https://github.com/HomeBusProjects/ruby-homebus
+  revision: 1d1bdabeb69776d957da7d3ce9c7d0bf9519492e
+  branch: main
+  specs:
+    homebus (0.23.1)
+      mqtt (~> 0.5.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    dotenv (2.8.1)
+    eventmachine (1.2.7)
+    faye-websocket (0.11.1)
+      eventmachine (>= 0.12.0)
+      websocket-driver (>= 0.5.1)
+    mqtt (0.5.0)
+    websocket-driver (0.7.5)
+      websocket-extensions (>= 0.1.0)
+    websocket-extensions (0.1.5)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  dotenv
+  eventmachine
+  faye-websocket
+  homebus (>= 0.23.1)!
+  mqtt
+
+RUBY VERSION
+   ruby 2.7.4p191
+
+BUNDLED WITH
+   2.3.18
